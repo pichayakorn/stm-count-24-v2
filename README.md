@@ -1,6 +1,7 @@
-# CPE-312 Resources
+# CPE-312 Project Resources
 Thai-Nichi Institute of Technology (泰日工業大学)  
 CPE-312: Embedded System: Semester 2/2021  
+Section 1 Group 8  
 
 ## Requirements
 
@@ -18,7 +19,7 @@ CPE-312: Embedded System: Semester 2/2021
 
 ### Bash
 ```bash
-$ git clone https://github.com/pichayakorn/cpe-312-res.git
+$ git clone https://github.com/pichayakorn/S1-G08-2021.git
 ```
 
 ## ⚠️ Caution
