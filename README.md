@@ -14,7 +14,7 @@ Section 1 Group 8
 ### GUI
 1. Click drop down `code` button on top of this repository.
 2. Open with GitHub Desktop.
-3. Clone this repository to your project directory (replace src in `Project/src`)
+3. Clone this repository to your local drive
 4. Open in Keil uVision5.
 
 ### Bash
