@@ -1,6 +1,7 @@
-# CPE-312 Resources
+# CPE-312 Project Resources
 Thai-Nichi Institute of Technology (泰日工業大学)  
 CPE-312: Embedded System: Semester 2/2021  
+Section 1 Group 8  
 
 ## Requirements
 
@@ -13,12 +14,12 @@ CPE-312: Embedded System: Semester 2/2021
 ### GUI
 1. Click drop down `code` button on top of this repository.
 2. Open with GitHub Desktop.
-3. Clone this repository to your project directory (replace src in `Project/src`)
+3. Clone this repository to your local drive
 4. Open in Keil uVision5.
 
 ### Bash
 ```bash
-$ git clone https://github.com/pichayakorn/cpe-312-res.git
+$ git clone https://github.com/pichayakorn/S1-G08-2021.git
 ```
 
 ## ⚠️ Caution
