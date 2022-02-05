@@ -63,13 +63,13 @@ void C11_STM32L152RB_CONFIG(void)
     //LL_DAC_Enable(DAC1, LL_DAC_CHANNEL_2);
     LL_DAC_ConvertData12RightAligned(DAC1, LL_DAC_CHANNEL_2, 0xFFF);
 
-    /* Config LED4 (PB6) and LED3 (PB7) as input */
+    /* Config LED1 (PB6) and LED2 (PB7) as onput */
     GPIO_InitStruct.Mode = LL_GPIO_MODE_OUTPUT;
-    GPIO_InitStruct.Pin = LL_GPIO_PIN_6;
-    LL_GPIO_Init(GPIOB, &GPIO_InitStruct);                  // Write configure value to registers
+    GPIO_InitStruct.Pin = LL_GPIO_PIN_12;
+    LL_GPIO_Init(GPIOA, &GPIO_InitStruct);                  // Write configure value to registers
 
-    GPIO_InitStruct.Pin = LL_GPIO_PIN_7;
-    LL_GPIO_Init(GPIOB, &GPIO_InitStruct);                  // Write configure value to registers
+    GPIO_InitStruct.Pin = LL_GPIO_PIN_4;
+    LL_GPIO_Init(GPIOA, &GPIO_InitStruct);                  // Write configure value to registers
     
     /* EXTI Line 0 (EXTI0) for PA0 */
     LL_SYSCFG_SetEXTISource(LL_SYSCFG_EXTI_PORTA, LL_SYSCFG_EXTI_LINE0);
