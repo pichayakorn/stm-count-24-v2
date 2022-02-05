@@ -65,30 +65,30 @@ void RESET_MATRIX_VALUE(void) {
 }
 
 /** LED **/
-void LED_GREEN_ON(void) {
-    LL_GPIO_SetOutputPin(GPIOB, LL_GPIO_PIN_7);
-} // PB7 ON
+void LED_1_ON(void) {
+    LL_GPIO_SetOutputPin(GPIOA, LL_GPIO_PIN_4);
+} // PA4 ON
 
-void LED_GREEN_OFF(void) {
-    LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_7);
-} // PB7 OFF
+void LED_1_OFF(void) {
+    LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_4);
+} // PA4 OFF
 
-void LED_BLUE_ON(void) {
-    LL_GPIO_SetOutputPin(GPIOB, LL_GPIO_PIN_6);
-} // PB6 ON
+void LED_2_ON(void) {
+    LL_GPIO_SetOutputPin(GPIOA, LL_GPIO_PIN_12);
+} // PA12 ON
 
-void LED_BLUE_OFF(void) {
-    LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_6);
-} // PB6 OFF
+void LED_2_OFF(void) {
+    LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_12);
+} // PA12 OFF
 
 void LED_ALL_ON(void) {
-    LL_GPIO_SetOutputPin(GPIOB, LL_GPIO_PIN_6);
-    LL_GPIO_SetOutputPin(GPIOB, LL_GPIO_PIN_7);
-} // PB6 and PB7 ON
+    LL_GPIO_SetOutputPin(GPIOA, LL_GPIO_PIN_12);
+    LL_GPIO_SetOutputPin(GPIOA, LL_GPIO_PIN_4);
+} // 
 
 void LED_ALL_OFF(void) {
-    LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_6);
-    LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_7);
-} // PB6 and PB7 ON
+    LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_12);
+    LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_4);
+} // 
 
 #endif

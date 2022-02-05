@@ -63,14 +63,14 @@ int main()
                         sprintf(disp_str, "%2d-P-%d", sum, playerSelect);
                         LCD_DISPLAY(disp_str);
                         LED_ALL_OFF();
-                        LED_BLUE_ON();
+                        LED_2_ON();
                         break;
                     case 2:
                         playerSelect = 3;
                         sprintf(disp_str, "%2d-P-%d", sum, playerSelect);
                         LCD_DISPLAY(disp_str);
                         LED_ALL_OFF();
-                        LED_GREEN_ON();
+                        LED_1_ON();
                         break;
                     case 3:
                         srand(i++);
