@@ -28,7 +28,7 @@ void C11_STM32L152RB_CONFIG(void)
     SystemClock_Config();               // Max-performance configure
     LCD_GLASS_Init();                   // LCD low-level init
     
-    /* Enable GPIOA and GPIOC clock */
+    /* Enable GPIOA, GPIOB, GPIOC clock */
     LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOA);
     LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOB);
     LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOC);
@@ -63,7 +63,7 @@ void C11_STM32L152RB_CONFIG(void)
     //LL_DAC_Enable(DAC1, LL_DAC_CHANNEL_2);
     LL_DAC_ConvertData12RightAligned(DAC1, LL_DAC_CHANNEL_2, 0xFFF);
 
-    /* Config LED1 (PB6) and LED2 (PB7) as onput */
+    /* Config LED1 (PA12) and LED2 (PA4) as output */
     GPIO_InitStruct.Mode = LL_GPIO_MODE_OUTPUT;
     GPIO_InitStruct.Pin = LL_GPIO_PIN_12;
     LL_GPIO_Init(GPIOA, &GPIO_InitStruct);                  // Write configure value to registers
