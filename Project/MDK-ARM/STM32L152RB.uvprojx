@@ -408,6 +408,11 @@
               <FileType>1</FileType>
               <FilePath>..\src\stm32l152_glass_lcd.c</FilePath>
             </File>
+            <File>
+              <FileName>s08_speaker_config.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\s08_speaker_config.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -447,6 +452,11 @@
               <FileName>stm32l1xx_ll_lcd.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_ll_lcd.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32l1xx_ll_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_ll_tim.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -1,3 +1,4 @@
+/* Includes ------------------------------------------------------------------*/
 #include <stdio.h>
 #include <stdbool.h>
 #include "stdlib.h"
@@ -19,17 +20,16 @@
 #include "stm32l152_glass_lcd.h"
 /* Configuration */
 #include "systemclock_config.h"
-#include "c11_stm32l152rb_config.h"
-#include "irqhandler_config.h"
+#include "s08_stm32l152rb_config.h"
 /* In-game functions */
-#include "game_setting.h"
+#include "s08_game_setting.h"
 
 void game_loading(void);
 
 int main()
 {
     /** C11:Count 24 game register configuration **/
-    C11_STM32L152RB_CONFIG();
+    S08_STM32L152RB_CONFIG();
 
     while(1) {
         int sum = 0;                                // In-game main counter
