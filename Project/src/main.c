@@ -133,14 +133,19 @@ int main()
         sprintf(disp_str, "P-%s", check_win?"WIN ":"LOSE");
         LCD_DISPLAY(disp_str);
 
-        /** Bip! Bip! **/
-        BUZZER_ON();
-        LL_mDelay(200);
-        BUZZER_OFF();
-        LL_mDelay(200);
-        BUZZER_ON();
-        LL_mDelay(200);
-        BUZZER_OFF();
+        /** BUG!! Can play soundtrack only once per game loop **/
+        if (check_win) {
+            PLAY_SOUNDTRACK();
+        } else {
+            /** Bip! Bip! **/
+            BUZZER_ON();
+            LL_mDelay(200);
+            BUZZER_OFF();
+            LL_mDelay(200);
+            BUZZER_ON();
+            LL_mDelay(200);
+            BUZZER_OFF();
+        }
 
         /** Try again **/
         while(!isUserBtnPinSet());      // Press user button to play again
