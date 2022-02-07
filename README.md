@@ -1,7 +1,11 @@
-# CPE-312 Project Resources
+# CPE-312 Count 24 Game Project Resources
 Thai-Nichi Institute of Technology (泰日工業大学)  
 CPE-312: Embedded System: Semester 2/2021  
 Section 1 Group 8  
+
+## Presentation files
+- Canva [presentation](https://www.canva.com/design/DAEpmMqIo0I/fI5SupADXkCoutdFb618jw/view?utm_content=DAEpmMqIo0I&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
+- Canva team [edit](https://www.canva.com/design/DAEpmMqIo0I/W3rlTt_BXjfYDwpytY_xaw/edit)
 
 ## Requirements
 
